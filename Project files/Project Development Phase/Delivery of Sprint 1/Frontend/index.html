@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>🖋 Digit Recognizer</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div  class="navigation-bar">
+            <h1>Digit Recognizer</h1>
+            <ul>
+                <li><a href="#homepage">Home</a></li>
+                <li><a href="#recognizer">Recognizer</a></li>
+            </ul>
+        </div>
+        <div id="homepage" class="homepage">
+            <img src="img/handwritten.jpg" class="homepage-img">
+            <div class="home-content">    
+                <h1>
+                    Handwritten digit Recognizer
+                </h1>
+                <p>Handwriting recognition (HWR), also known as handwritten text recognition (HTR), is the ability of a computer to receive and interpret intelligible handwritten input from sources such as paper documents, photographs, touch-screens and other devices.[1][2] The image of the written text may be sensed "off line" from a piece of paper by optical scanning (optical character recognition) or intelligent word recognition. Alternatively, the movements of the pen tip may be sensed "on line", for example by a pen-based computer screen surface, a generally easier task as there are more clues available. A handwriting recognition system handles formatting, performs correct segmentation into characters, and finds the most plausible words.</p>
+            </div>
+        </div>
+        <div id="recognizer" class="recognizer">
+            <div class="form-upload">
+                <img src="img/upload.png">
+                <h1>Upload image for recognition</h1>
+                <form>
+                    <input type="file" id="file" name="myfile" class="file-upload"><br>
+                    <input type="submit" class="file-submit">
+                </form>
+            </div>
+            <div class="output" id="output">
+                <h1>Output</h1>
+                <p>Check your output here</p>
+            </div>
+        </div>
+    </body>
+</html>
